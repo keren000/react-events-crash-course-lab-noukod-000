@@ -24,7 +24,7 @@ export default class ChromeBoisDomain extends Component {
    */
   
   KeyPresshandle = (event) => {
-    if(e.key === "a"){
+    if(event.key === "a"){
       console.log('resize up')
       resize('+')
     }else if(e.key ==="s"){
